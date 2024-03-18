@@ -4,9 +4,8 @@ from aiogram.types import ReplyKeyboardRemove
 from aiogram import executor
 from logging import basicConfig, INFO
 
-from data.config import ADMINS
-from loader import dp, db, bot
-
+from filters import ADMINS
+from loader import dp, db
 
 user_message = 'Пользователь'
 admin_message = 'Админ'
